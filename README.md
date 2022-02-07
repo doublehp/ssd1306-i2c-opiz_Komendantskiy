@@ -32,7 +32,7 @@ Just wanted to make a quick note on geting started with the i2c oled display.Thi
 4. In console: i2cdetect -r 0
 
 You will be greeted with this(Awnser yes):
-
+```
 WARNING! This program can confuse your I2C bus, cause data loss and worse!
 I will probe file /dev/i2c-0 using read byte commands.
 I will probe address range 0x03-0x77.
@@ -46,7 +46,7 @@ Continue? [Y/n] Y
 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 70: -- -- -- -- -- -- -- --
-
+```
 
 0x3c is the address of the display (not 0x78 as shown on ali).
 If you did not get 3c, you will need to make a note of the result.
