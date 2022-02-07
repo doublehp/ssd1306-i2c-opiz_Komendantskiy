@@ -55,7 +55,7 @@ Second note, if there are more than one device, there will be more than one resu
 There is no point in contiueing with the next points until you get a positiv awnser from this test. If all the fields are blank eg. --, it means that there are no devices on the i2c-0 bus.
 Possilbe error: Bad wiring, check it. Wrong i2c bus, might be an idea to test i2c-1 in the i2cdetect test. Bad device, or port, run the test on a nother board, possibly test it on Arduino.
 
-5. Download and extract : https://drive.google.com/file/d/ ... Ir/view?usp=sharing
+5. Download and extract : https://drive.google.com/file/d/1jq2ddW927Cy1V0jbryz6P1cVFe428mIr/view?usp=sharing
 6. Navigate in to the folder you just extrated. (If you did not get 3c in the i2vdetect test, you will need to edit the oled.h file. On line 16 you will find: #define OLED_I2C_ADDR      0x3c <--- change 3c to your result. Save and exit)
 7. In console: make
 8. In console: ./oled_demo
